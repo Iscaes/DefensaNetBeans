@@ -18,7 +18,7 @@ public class DefensaNetBeans {
         int[] aleatorios = new int[10];
 
         // Generar 10 números aleatorios entre 0 y 100
-        for (int i = 0; i < aleatorios.length; i++) {
+        for (int i = 0; i < aleatorios.length; i = i + 2) {
             aleatorios[i] = random.nextInt(101); // nextInt(101) genera números entre 0 (inclusive) y 101 (exclusive)
         }
 
